@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/bootstrap-5.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="/style.css"> -->
     <title>Document</title>
 </head>
 
@@ -14,9 +14,15 @@
         <h1>E-Commerce Application</h1>
         <div id="displayError"></div>
         <div class="inputs">
-            <input type="text" placeholder="Name of Product" id="productName">
-            <input type="text" placeholder="Description" id="productDescription">
-            <input type="text" placeholder="Price" id="productPrice">
+            <button class="btn-input">
+                <input type="text" placeholder="Name of Product" id="productName">
+            </button>
+            <button class="btn-input">
+                <input type="text" placeholder="Description" id="productDescription">
+            </button>
+            <button class="btn-input">
+                <input type="text" placeholder="Price" id="productPrice">
+            </button>
         </div>
         <div class="actions">
             <button onclick="addItems()">ADD</button> 

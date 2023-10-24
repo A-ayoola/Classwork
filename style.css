@@ -10,10 +10,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/mountains-trees-moon-landscape-wallpaper-preview.jpg);
+    /* background-image: url(/mountains-trees-moon-landscape-wallpaper-preview.jpg);
     background-position: center;
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 .container {
@@ -24,6 +24,10 @@ body {
     border: 2px solid plum;
     border-radius: 10px;
     /* backdrop-filter: blur(15px); */
+}
+
+.btn-input {
+    border-radius: 50px;
 }
 
 h1 {
@@ -51,6 +55,7 @@ h1 {
 .inputs {
     display: flex;
     margin-bottom: 25px;
+    border-radius: 50px 50px 50px 50px;
 }
 
 .input {
